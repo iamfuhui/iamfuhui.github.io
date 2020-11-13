@@ -6,12 +6,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="HandheldFriendly" content="True">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
-    <meta name="description" content="本文记录的主要是Clash for Windows的配置文件，其余平台暂时未测试过。 基本的配置 1234567891011121314151617181920212223242526272829303132333435363738394041port: 7890  # HTTP 代理端口 在CFW中，socks5的端口也是这个socks-port: 7891 # Linux 和 macOS 的">
+    <meta name="description" content="本文记录的主要是Clash for Windows的配置文件，其余平台暂时未测试过。 基本的配置 port: 7890  # HTTP 代理端口 在CFW中，socks5的端口也是这个 socks-port: 7891  # Linux 和 macOS 的 redir 代理端口 (如需使用此功能，请取消注释) # redir-port: 7892 allow-lan: true   # 允许局域网">
 <meta property="og:type" content="article">
 <meta property="og:title" content="Clash的基本配置">
 <meta property="og:url" content="https://iamfuhui.gihub.io/2020/11/12/Clash-Config/index.html">
 <meta property="og:site_name" content="与你的日日夜夜">
-<meta property="og:description" content="本文记录的主要是Clash for Windows的配置文件，其余平台暂时未测试过。 基本的配置 1234567891011121314151617181920212223242526272829303132333435363738394041port: 7890  # HTTP 代理端口 在CFW中，socks5的端口也是这个socks-port: 7891 # Linux 和 macOS 的">
+<meta property="og:description" content="本文记录的主要是Clash for Windows的配置文件，其余平台暂时未测试过。 基本的配置 port: 7890  # HTTP 代理端口 在CFW中，socks5的端口也是这个 socks-port: 7891  # Linux 和 macOS 的 redir 代理端口 (如需使用此功能，请取消注释) # redir-port: 7892 allow-lan: true   # 允许局域网">
 <meta property="og:locale" content="zh_CN">
 <meta property="article:published_time" content="2020-11-12T09:31:05.000Z">
 <meta property="article:modified_time" content="2020-11-12T09:40:31.808Z">
@@ -77,6 +77,8 @@
     <br/>
     <span id="actions">
       <ul>
+        
+        <li><a class="icon" href="/2020/11/13/Hexo%E6%90%AD%E5%BB%BABlog%E7%AC%94%E8%AE%B0/"><i class="fas fa-chevron-left" aria-hidden="true" onmouseover="$('#i-prev').toggle();" onmouseout="$('#i-prev').toggle();"></i></a></li>
         
         
         <li><a class="icon" href="/2020/11/12/%E6%9F%AC%E5%9F%94%E5%AF%A8%E8%87%B3%E4%B8%8A%E6%B5%B7-%E9%9A%94%E7%A6%BB%E8%AE%B0%E5%BD%95-Day2/"><i class="fas fa-chevron-right" aria-hidden="true" onmouseover="$('#i-next').toggle();" onmouseout="$('#i-next').toggle();"></i></a></li>
@@ -155,8 +157,47 @@
   <div class="content" itemprop="articleBody">
     <p>本文记录的主要是Clash for Windows的配置文件，其余平台暂时未测试过。</p>
 <p>基本的配置</p>
-<figure class="highlight yaml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br></pre></td><td class="code"><pre><span class="line"><span class="attr">port:</span> <span class="number">7890</span>  <span class="comment"># HTTP 代理端口 在CFW中，socks5的端口也是这个</span></span><br><span class="line"><span class="attr">socks-port:</span> <span class="number">7891</span> </span><br><span class="line"><span class="comment"># Linux 和 macOS 的 redir 代理端口 (如需使用此功能，请取消注释)</span></span><br><span class="line"><span class="comment"># redir-port: 7892</span></span><br><span class="line"><span class="attr">allow-lan:</span> <span class="literal">true</span>   <span class="comment"># 允许局域网的连接（可用来共享代理）</span></span><br><span class="line"><span class="attr">mode:</span> <span class="string">Rule</span></span><br><span class="line"><span class="attr">log-level:</span> <span class="string">info</span></span><br><span class="line"><span class="attr">external-controller:</span> <span class="string">:9090</span></span><br><span class="line"><span class="attr">dns:</span></span><br><span class="line">  <span class="attr">enabled:</span> <span class="literal">true</span></span><br><span class="line">  <span class="attr">ipv6:</span> <span class="literal">false</span></span><br><span class="line">  <span class="attr">listen:</span> <span class="number">0.0</span><span class="number">.0</span><span class="number">.0</span><span class="string">:53</span></span><br><span class="line">  <span class="attr">enhanced-mode:</span> <span class="string">fake-ip</span></span><br><span class="line">  <span class="attr">fake-ip-range:</span> <span class="number">198.18</span><span class="number">.0</span><span class="number">.1</span><span class="string">/16</span></span><br><span class="line">  <span class="attr">nameserver:</span></span><br><span class="line">    <span class="bullet">-</span> <span class="number">119.29</span><span class="number">.29</span><span class="number">.29</span></span><br><span class="line">    <span class="bullet">-</span> <span class="string">tls://13800000000.rubyfish.cn:853</span></span><br><span class="line">    <span class="bullet">-</span> <span class="string">tcp://1.1.1.1</span></span><br><span class="line">  <span class="attr">fallback:</span> <span class="comment"># 与 nameserver 内的服务器列表同时发起请求，当规则符合 GEOIP 在 CN 以外时，fallback 列表内的域名服务器生效。</span></span><br><span class="line">    <span class="bullet">-</span> <span class="string">tls://dns.rubyfish.cn:853</span></span><br><span class="line">    <span class="bullet">-</span> <span class="string">https://1.1.1.1/dns-query</span></span><br><span class="line">    <span class="bullet">-</span> <span class="string">tls://1.0.0.1:853</span></span><br><span class="line">    <span class="bullet">-</span> <span class="string">tls://dns.google:853</span></span><br><span class="line">   <span class="comment">#- https://13800000000.rubyfish.cn/</span></span><br><span class="line">   <span class="comment">#- https://cloudflare-dns.com/dns-query</span></span><br><span class="line">   <span class="comment">#- https://dns.google/dns-query</span></span><br><span class="line"></span><br><span class="line">  <span class="attr">fallback-filter:</span></span><br><span class="line">    <span class="attr">geoip:</span> <span class="literal">true</span></span><br><span class="line">    <span class="attr">ipcidr:</span> <span class="comment"># 在这个网段内的 IP 地址会被考虑为被污染的 IP</span></span><br><span class="line">      <span class="bullet">-</span> <span class="number">240.0</span><span class="number">.0</span><span class="number">.0</span><span class="string">/4</span></span><br><span class="line">    <span class="comment"># 1. clash DNS 请求逻辑：</span></span><br><span class="line">    <span class="comment">#   (1) 当访问一个域名时， nameserver 与 fallback 列表内的所有服务器并发请求，得到域名对应的 IP 地址。</span></span><br><span class="line">    <span class="comment">#   (2) clash 将选取 nameserver 列表内，解析最快的结果。</span></span><br><span class="line">    <span class="comment">#   (3) 若解析结果中，IP 地址属于 国外，那么 clash 将选择 fallback 列表内，解析最快的结果。</span></span><br><span class="line">    <span class="comment">#</span></span><br><span class="line">    <span class="comment">#   因此，在 nameserver 和 fallback 内都放置了无污染、解析速度较快的国内 DNS 服务器，以达到最快的解析速度。</span></span><br><span class="line">    <span class="comment">#   但是 fallback 列表内服务器会用在解析境外网站，为了结果绝对无污染，仅保留了支持 DoT/DoH 的两个服务器。</span></span><br><span class="line">      </span><br><span class="line">      </span><br><span class="line">      </span><br></pre></td></tr></table></figure>
+<pre><code class="YAML">port: 7890  # HTTP 代理端口 在CFW中，socks5的端口也是这个
+socks-port: 7891 
+# Linux 和 macOS 的 redir 代理端口 (如需使用此功能，请取消注释)
+# redir-port: 7892
+allow-lan: true   # 允许局域网的连接（可用来共享代理）
+mode: Rule
+log-level: info
+external-controller: :9090
+dns:
+  enabled: true
+  ipv6: false
+  listen: 0.0.0.0:53
+  enhanced-mode: fake-ip
+  fake-ip-range: 198.18.0.1/16
+  nameserver:
+    - 119.29.29.29
+    - tls://13800000000.rubyfish.cn:853
+    - tcp://1.1.1.1
+  fallback: # 与 nameserver 内的服务器列表同时发起请求，当规则符合 GEOIP 在 CN 以外时，fallback 列表内的域名服务器生效。
+    - tls://dns.rubyfish.cn:853
+    - https://1.1.1.1/dns-query
+    - tls://1.0.0.1:853
+    - tls://dns.google:853
+   #- https://13800000000.rubyfish.cn/
+   #- https://cloudflare-dns.com/dns-query
+   #- https://dns.google/dns-query
 
+  fallback-filter:
+    geoip: true
+    ipcidr: # 在这个网段内的 IP 地址会被考虑为被污染的 IP
+      - 240.0.0.0/4
+    # 1. clash DNS 请求逻辑：
+    #   (1) 当访问一个域名时， nameserver 与 fallback 列表内的所有服务器并发请求，得到域名对应的 IP 地址。
+    #   (2) clash 将选取 nameserver 列表内，解析最快的结果。
+    #   (3) 若解析结果中，IP 地址属于 国外，那么 clash 将选择 fallback 列表内，解析最快的结果。
+    #
+    #   因此，在 nameserver 和 fallback 内都放置了无污染、解析速度较快的国内 DNS 服务器，以达到最快的解析速度。
+    #   但是 fallback 列表内服务器会用在解析境外网站，为了结果绝对无污染，仅保留了支持 DoT/DoH 的两个服务器。
+
+
+</code></pre>
 
   </div>
 </article>
@@ -292,12 +333,12 @@
 
 <!-- Google Analytics -->
 
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-DX89WSQGP9"></script>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-DG7C3BL936"></script>
     <script>
         window.dataLayer = window.dataLayer || [];
         function gtag(){dataLayer.push(arguments);}
         gtag('js', new Date());
-        gtag('config', 'G-DX89WSQGP9');
+        gtag('config', 'G-DG7C3BL936');
     </script>
 
 <!-- Baidu Analytics -->
