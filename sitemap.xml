@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  
+  <url>
+    <loc>https://iamfuhui.gihub.io/2020/11/13/hexo-da-jian-blog-bi-ji/</loc>
+    
+    <lastmod>2020-11-14</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://iamfuhui.gihub.io/2020/11/12/jian-bu-zhai-zhi-shang-hai-ge-chi-ji-lu-day2/</loc>
+    
+    <lastmod>2020-11-12</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://iamfuhui.gihub.io/2020/11/12/clash-config/</loc>
+    
+    <lastmod>2020-11-12</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://iamfuhui.gihub.io/about/index.html</loc>
+    
+    <lastmod>2020-11-12</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://iamfuhui.gihub.io/2020/11/11/hello-world/</loc>
+    
+    <lastmod>2020-11-12</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://iamfuhui.gihub.io/2020/11/11/day1/</loc>
+    
+    <lastmod>2020-11-12</lastmod>
+    
+  </url>
+  
+
+  <url>
+    <loc>https://iamfuhui.gihub.io/</loc>
+    <lastmod>2020-11-14</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1.0</priority>
+  </url>
+
+  
+  <url>
+    <loc>https://iamfuhui.gihub.io/tags/clash/</loc>
+    <lastmod>2020-11-14</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://iamfuhui.gihub.io/tags/%E7%BD%91%E7%BB%9C/</loc>
+    <lastmod>2020-11-14</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://iamfuhui.gihub.io/tags/%E6%97%85%E8%A1%8C/</loc>
+    <lastmod>2020-11-14</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://iamfuhui.gihub.io/tags/%E7%96%AB%E6%83%85/</loc>
+    <lastmod>2020-11-14</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://iamfuhui.gihub.io/tags/life/</loc>
+    <lastmod>2020-11-14</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+
+  
+</urlset>
