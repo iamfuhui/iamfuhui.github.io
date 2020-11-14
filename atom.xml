@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>与你的日日夜夜</title>
+  
+  
+  <link href="https://iamfuhui.gihub.io/atom.xml" rel="self"/>
+  
+  <link href="https://iamfuhui.gihub.io/"/>
+  <updated>2020-11-14T00:17:53.064Z</updated>
+  <id>https://iamfuhui.gihub.io/</id>
+  
+  <author>
+    <name>Hui</name>
+    
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Hexo搭建Blog笔记</title>
+    <link href="https://iamfuhui.gihub.io/2020/11/13/hexo-da-jian-blog-bi-ji/"/>
+    <id>https://iamfuhui.gihub.io/2020/11/13/hexo-da-jian-blog-bi-ji/</id>
+    <published>2020-11-13T03:01:48.000Z</published>
+    <updated>2020-11-14T00:17:53.064Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;blockquote&gt;
+&lt;h5 id=&quot;缘起：在我准备回国的时候，想着把这一次入境隔离的日常做一个记录。当时考虑只是拍一些照片，记录一下流程发布在社交媒体上面。后来觉得社交媒体碎片化太严重，还是需要像Blog这样方便阅读、更新和检索的平台更加合适一些。&quot;&gt;&lt;a</summary>
+        
+      
+    
+    
+    
+    
+    <category term="网络" scheme="https://iamfuhui.gihub.io/tags/%E7%BD%91%E7%BB%9C/"/>
+    
+    <category term="life" scheme="https://iamfuhui.gihub.io/tags/life/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Clash的基本配置</title>
+    <link href="https://iamfuhui.gihub.io/2020/11/12/clash-config/"/>
+    <id>https://iamfuhui.gihub.io/2020/11/12/clash-config/</id>
+    <published>2020-11-12T09:31:05.000Z</published>
+    <updated>2020-11-12T09:40:31.808Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;本文记录的主要是Clash for Windows的配置文件，其余平台暂时未测试过。&lt;/p&gt;
+&lt;p&gt;基本的配置&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&quot;YAML&quot;&gt;port: 7890  # HTTP 代理端口</summary>
+        
+      
+    
+    
+    
+    
+    <category term="clash" scheme="https://iamfuhui.gihub.io/tags/clash/"/>
+    
+    <category term="网络" scheme="https://iamfuhui.gihub.io/tags/%E7%BD%91%E7%BB%9C/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>柬埔寨至上海 隔离记录 Day2</title>
+    <link href="https://iamfuhui.gihub.io/2020/11/12/jian-bu-zhai-zhi-shang-hai-ge-chi-ji-lu-day2/"/>
+    <id>https://iamfuhui.gihub.io/2020/11/12/jian-bu-zhai-zhi-shang-hai-ge-chi-ji-lu-day2/</id>
+    <published>2020-11-12T04:40:51.000Z</published>
+    <updated>2020-11-12T10:26:28.585Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;昨天的记录还没写完，折腾hexo和模板到半夜。之前的文章被我一举清空，还好回收站都里面都有。&lt;/p&gt;
+&lt;p&gt;继续昨天的记录。&lt;/p&gt;
+&lt;p&gt;11-11&lt;/p&gt;
+&lt;p&gt;午餐，上午办理好入住以后，不到中午就饿了。背包里面还有航班上发的一块小蛋糕。&lt;/p&gt;
+&lt;p&gt;11点40分，几</summary>
+        
+      
+    
+    
+    
+    
+    <category term="疫情" scheme="https://iamfuhui.gihub.io/tags/%E7%96%AB%E6%83%85/"/>
+    
+    <category term="life" scheme="https://iamfuhui.gihub.io/tags/life/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>柬埔寨至上海 隔离记录 Day1</title>
+    <link href="https://iamfuhui.gihub.io/2020/11/11/day1/"/>
+    <id>https://iamfuhui.gihub.io/2020/11/11/day1/</id>
+    <published>2020-11-11T10:36:40.000Z</published>
+    <updated>2020-11-12T03:55:56.787Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;Day 1&lt;/p&gt;
+&lt;p&gt;航班 MU760</summary>
+        
+      
+    
+    
+    
+    
+    <category term="旅行" scheme="https://iamfuhui.gihub.io/tags/%E6%97%85%E8%A1%8C/"/>
+    
+    <category term="疫情" scheme="https://iamfuhui.gihub.io/tags/%E7%96%AB%E6%83%85/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Hello World</title>
+    <link href="https://iamfuhui.gihub.io/2020/11/11/hello-world/"/>
+    <id>https://iamfuhui.gihub.io/2020/11/11/hello-world/</id>
+    <published>2020-11-10T16:00:00.000Z</published>
+    <updated>2020-11-12T04:39:15.732Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.io/docs/&quot;&gt;documentation&lt;/a&gt;</summary>
+        
+      
+    
+    
+    
+    
+  </entry>
+  
+</feed>
