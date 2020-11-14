@@ -6,7 +6,7 @@
   <link href="https://iamfuhui.gihub.io/atom.xml" rel="self"/>
   
   <link href="https://iamfuhui.gihub.io/"/>
-  <updated>2020-11-14T03:10:45.296Z</updated>
+  <updated>2020-11-14T15:00:27.871Z</updated>
   <id>https://iamfuhui.gihub.io/</id>
   
   <author>
@@ -15,6 +15,34 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Clash for Windows mixin配置备忘</title>
+    <link href="https://iamfuhui.gihub.io/2020/11/14/clash-for-windows-mixin-pei-zhi-bei-wang/"/>
+    <id>https://iamfuhui.gihub.io/2020/11/14/clash-for-windows-mixin-pei-zhi-bei-wang/</id>
+    <published>2020-11-14T14:07:39.000Z</published>
+    <updated>2020-11-14T15:00:27.871Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;blockquote&gt;
+&lt;p&gt;不在GFW环境下使用Clash for Windows还是会忽略掉很多错误的配置。由于我最近几天发现在丰富了CFW的mixin配置之后，主要是DNS的配置，TAP模式无法正常运行。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h4</summary>
+        
+      
+    
+    
+    
+    
+    <category term="网络" scheme="https://iamfuhui.gihub.io/tags/%E7%BD%91%E7%BB%9C/"/>
+    
+    <category term="life" scheme="https://iamfuhui.gihub.io/tags/life/"/>
+    
+  </entry>
   
   <entry>
     <title>柬埔寨至上海-隔离记录-Day3</title>
